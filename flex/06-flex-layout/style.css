@@ -26,32 +26,50 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .content{
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.buttons{
-
+.footer{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+  
 }
 
-.footer{
-  display: flex;
-  flex-direction: column;
+.buttons{
+  margin-bottom: 16px;
+  padding: 5px
 }
 
 .header{
  display: flex;
  flex-direction: row; 
+ justify-content: space-between;
+ padding: 8px;
 }
 
 .left-links{
+  display: flex;
+  flex-direction: row;
   list-style: none;
+  float: left;
 }
 
 .right-links{
+  display: flex;
+  flex-direction: row;
   list-style: none;
+  float: right;
+}
+
+.PrimeiraPalavra{
+  margin-right: 15px;
 }
